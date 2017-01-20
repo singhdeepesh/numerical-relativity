@@ -16,5 +16,5 @@ HOW TO USE : -
 4. Define your metric matrix. 
     Example:- For cartesian space, I would use Metric = diag(1,1,1)
 
-5. You are ready to go!! Just cd to the directory where the code is and run the code, the corresponding quantities will be printed on the screen. In terminal, type **cd /path_to_the_folder_where_code_is_placed** and **python gr.py**
+5. You are ready to go!! Just cd to the directory where the code is and run the code, the corresponding quantities will be dispayed. In terminal, type **cd /path_to_the_folder_where_code_is_placed** and **python gr.py**
    
