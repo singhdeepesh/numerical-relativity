@@ -4,4 +4,4 @@ This python code can be used to find the Christoffel Symbol, Riemann Tesnor, Ric
 
 HOW TO USE : -
 
-1. Install gravipy and scipy modules in python using :- sudo pip install gravipy , sudo pip install scipy
+1. Install gravipy and scipy modules in python using :- sudo pip install gravipy and sudo pip install scipy
