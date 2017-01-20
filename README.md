@@ -7,7 +7,7 @@ HOW TO USE : -
 1. Install gravipy and sympy modules in python using :- In terminal type, **sudo pip install gravipy** and **sudo pip install sympy**.
 
 2. Define the variables of your metric space. In Sympy, you have to declare symbolic variables explicitly. 
-    Example:- For cartesian space, I would define my symbols as - x, y, z = symbols("x, y, z"). 
+    Example:- For cartesian space, I would define my symbols as _x, y, z = symbols("x, y, z")_. 
     Note that you may need to use back-slashes ('\') to escape any special characters you may be using as a symbol. 
     
 3. Declare these symbols as your cooordinate-system variables. 
