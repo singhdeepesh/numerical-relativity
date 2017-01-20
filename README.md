@@ -4,4 +4,17 @@ This python code can be used to find the Christoffel Symbol, Riemann Tesnor, Ric
 
 HOW TO USE : -
 
-1. Install gravipy and scipy modules in python using :- sudo pip install gravipy and sudo pip install scipy
+1. Install gravipy and sympy modules in python using :- In terminal type, **sudo pip install gravipy** and **sudo pip install sympy**.
+
+2. Define the variables of your metric space. In Sympy, you have to declare symbolic variables explicitly. 
+    Example:- For cartesian space, I would define my symbols as - x, y, z = symbols("x, y, z"). 
+    Note that you may need to use back-slashes ('\') to escape any special characters you may be using as a symbol. 
+    
+3. Declare these symbols as your cooordinate-system variables. 
+    Example:- For cartesian space, I would use - C = Coordinates('\chi', [x, y, z])
+
+4. Define your metric matrix. 
+    Example:- For cartesian space, I would use Metric = diag(1,1,1)
+
+5. You are ready to go!! Just cd to the directory where the code is and run the code, the corresponding quantities will be printed on the screen. In terminal, type **cd /path_to_the_folder_where_code_is_placed** and **python gr.py**
+   
