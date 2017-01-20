@@ -1,6 +1,6 @@
 # numerical-relativity
 
-This python code can be used to find the Christoffel Symbol, Riemann Tesnor, Ricci Tensor and Ricci Scalar for a given metric. 
+This python code can be used to find the Christoffel Symbol, Riemann Tensor, Ricci Tensor and Ricci Scalar for a given metric. 
 
 Instructions : -
 
