@@ -2,7 +2,7 @@
 
 This python code can be used to find the Christoffel Symbol, Riemann Tesnor, Ricci Tensor and Ricci Scalar for a given metric. 
 
-HOW TO USE : -
+Instructions : -
 
 1. Install gravipy and sympy modules in python using :- In terminal type, **sudo pip install gravipy** and **sudo pip install sympy**.
 
