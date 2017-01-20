@@ -3,12 +3,12 @@ from gravipy import *
 
 
 R, theta , phi = symbols("R, theta, phi")
-x = Coordinates('\chi', [theta, phi])
+C = Coordinates('\chi', [theta, phi])
 
 
 ### PRINT METRIC ###
 Metric = diag(R**2, R**2*sin(theta)**2)
-g = MetricTensor('g',x,Metric)
+g = MetricTensor('g',C,Metric)
 print "Metric is : " 
 print g(All,All)
 print "\n"
