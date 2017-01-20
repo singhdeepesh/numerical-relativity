@@ -11,10 +11,10 @@ HOW TO USE : -
     Note that you may need to use back-slashes ('\') to escape any special characters you may be using as a symbol. 
     
 3. Declare these symbols as your cooordinate-system variables. 
-    Example:- For cartesian space, I would use - C = Coordinates('\chi', [x, y, z])
+    Example:- For cartesian space, I would use _C = Coordinates('\chi', [x, y, z])_.
 
 4. Define your metric matrix. 
-    Example:- For cartesian space, I would use Metric = diag(1,1,1)
+    Example:- For cartesian space, I would use _Metric = diag(1,1,1)_
 
 5. You are ready to go!! Just cd to the directory where the code is and run the code, the corresponding quantities will be dispayed. In terminal, type **cd /path_to_the_folder_where_code_is_placed** and **python gr.py**
    
