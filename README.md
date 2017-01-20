@@ -18,3 +18,4 @@ HOW TO USE : -
 
 5. You are ready to go!! Just cd to the directory where the code is and run the code, the corresponding quantities will be dispayed. In terminal, type **cd /path_to_the_folder_where_code_is_placed** and **python gr.py**
    
+6. Additional help can be found in the gravipy tutorial. 
